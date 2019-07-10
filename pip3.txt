@@ -1,6 +1,6 @@
 pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow
-pip3 install tesserocr
-
+pip3 install tesserocr #不可用
+pip3 install tesserocr-2.4.0-cp37-cp37m-win_amd64.whl
 
 
 
@@ -25,11 +25,9 @@ docker run  -p 8050:8050 scrapinghub/splash
 https://digi.bib.uni-mannheim.de/tesseract/
 
 tesserocr：运行tesseract-ocr-w64-setup-v5.0.0.20190623.exe   勾选Additional languge data(download)
-再运行pip3 install tesserocr pillow
 Microsoft Visual C++ 14.0 is required.时运行
 Microsoft Visual C++ Build Tools.exe
-pip3 install tesserocr  安装报错时运行
-pip3 install tesserocr-2.4.0-cp37-cp37m-win_amd64.whl
+
 
 运行tesserocrtest.py
 拷贝文件夹tessdata到报错相应路径下
