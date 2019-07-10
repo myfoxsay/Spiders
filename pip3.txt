@@ -20,6 +20,10 @@ https://www.cnblogs.com/321lxl/p/9536616.html
 docker pull scrapinghub/splash
 docker run  -p 8050:8050 scrapinghub/splash
 
+报错：open C:\Users\Animesh\.docker\machine\machines\default\config.json: The system cannot find the file specified.
+重启计算机
+运行docker-machine rm -f default再重新管理员运行Docker Quickstart Terminal
+访问：http://192.168.99.100:8050/
 
 
 https://digi.bib.uni-mannheim.de/tesseract/
