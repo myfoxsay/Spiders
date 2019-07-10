@@ -4,11 +4,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from urllib.parse import quote
-
-# chrome_options=webdriver.ChromeOptions()
-# chrome_options.add_argument('--headless')
-# browser=webdriver.Chrome(chrome_options=chrome_options)
-browser=webdriver.Chrome()
+user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+chrome_options=webdriver.ChromeOptions()
+# chrome_options.add_argument('--disable-extensions')
+# chrome_options.add_argument('--profile-directory=Default')
+# chrome_options.add_argument("--incognito")
+# chrome_options.add_argument("--disable-plugins-discovery");
+# chrome_options.add_argument("--start-maximized")
+chrome_options.add_experimental_option(
+            'excludeSwitches', ['enable-automation'])#开发者模式，使滑块验证有效
+browser=webdriver.Chrome(chrome_options=chrome_options)
+#browser=webdriver.Chrome()
 wait=WebDriverWait(browser,10)
 KEYWORD='iPad'
 def index_page(page):
