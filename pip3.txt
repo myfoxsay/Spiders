@@ -1,0 +1,35 @@
+pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow
+pip3 install tesserocr
+
+
+
+
+1、bin同级目录新建data文件夹
+2、mongod.exe --dbpath D:\ym10266\桌面\mongodb-win32-x86_64-2008plus-ssl-4.0.10\data
+
+
+
+chromedriver
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+
+#Docker
+https://www.cnblogs.com/321lxl/p/9536616.html
+点击Docker Quickstart Terminal   进入BIOS开启英特尔虚拟技术
+然后在cmd下运行
+docker pull scrapinghub/splash
+docker run  -p 8050:8050 scrapinghub/splash
+
+
+
+https://digi.bib.uni-mannheim.de/tesseract/
+
+tesserocr：运行tesseract-ocr-w64-setup-v5.0.0.20190623.exe   勾选Additional languge data(download)
+再运行pip3 install tesserocr pillow
+Microsoft Visual C++ 14.0 is required.时运行
+Microsoft Visual C++ Build Tools.exe
+pip3 install tesserocr  安装报错时运行
+pip3 install tesserocr-2.4.0-cp37-cp37m-win_amd64.whl
+
+运行tesserocrtest.py
+拷贝文件夹tessdata到报错相应路径下
