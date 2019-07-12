@@ -1,6 +1,6 @@
 import tesserocr
 from PIL import Image
-image=Image.open('images/DKDSU7362E74VOOAQ7NSQ2Q.png')
+image=Image.open('images/template.png')
 print(tesserocr.image_to_text(image,lang='chi_sim'))
 print(tesserocr.file_to_text('images/test.jpg'))
 
