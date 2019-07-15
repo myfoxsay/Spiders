@@ -1,4 +1,4 @@
-pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow
+pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow aiohttp  flask
 pip3 install tesserocr #不可用
 pip3 install tesserocr-2.4.0-cp37-cp37m-win_amd64.whl
 
