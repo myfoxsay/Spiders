@@ -1,4 +1,4 @@
-pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow aiohttp  flask tornado
+pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow aiohttp  flask tornado mitmproxy
 pip3 install tesserocr #不可用
 pip3 install tesserocr-2.4.0-cp37-cp37m-win_amd64.whl
 
@@ -35,3 +35,9 @@ Microsoft Visual C++ Build Tools.exe
 
 运行tesserocrtest.py
 拷贝文件夹tessdata到报错相应路径下
+
+
+centOS7安装ruby，方法三：RVM 安装
+https://www.cnblogs.com/ding2016/p/7903147.html
+
+
