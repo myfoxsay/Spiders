@@ -1,4 +1,5 @@
-pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow aiohttp  flask tornado mitmproxy Appium_Python_Client pyspider
+pip3 install requests lxml beautifulsoup4 pyquery pymysql pymongo redis selenium scrapy-splash  pillow aiohttp  flask tornado
+pip3 install mitmproxy Appium_Python_Client pyspider  scrapy-redis
 pip3 install tesserocr #不可用
 pip3 install tesserocr-2.4.0-cp37-cp37m-win_amd64.whl
 pip3 install openpyxl #操作excel
@@ -40,6 +41,8 @@ Microsoft Visual C++ Build Tools.exe
 centOS7安装ruby，方法三：RVM 安装
 https://www.cnblogs.com/ding2016/p/7903147.html
 
+
+#安装pyspider
 #pip3 install pyspider
 报错ERROR: Command "python setup.py egg_info" failed with error code 10
 访问：https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycurl
@@ -48,8 +51,21 @@ pip3 install pycurl-7.43.0.3-cp37-cp37m-win_amd64.whl
 重新执行：pip3 install pyspider
 
 
+
+#安装Scrapy
+pip3 install wheel-0.33.4-py2.py3-none-any.whl
+pip3 install Twisted-19.2.1-cp37-cp37m-win_amd64.whl
+运行pywin32-224.win-amd64-py3.7.exe
+pip3 install Scrapy
+
+
+
+
+
 adb devices -l
 mitmdump -s script.py
 pyspider all   #启动报错见:https://blog.csdn.net/wyd117/article/details/84932858  https://blog.csdn.net/qq_37253540/article/details/88196994
 解决pyspider框架web预览框过小问题:https://www.cnblogs.com/lhsfool/p/9937720.html
 之后要清除浏览器缓存
+
+
