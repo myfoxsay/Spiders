@@ -69,3 +69,5 @@ pyspider all   #启动报错见:https://blog.csdn.net/wyd117/article/details/849
 之后要清除浏览器缓存
 
 
+#AI
+pip3 install numpy
