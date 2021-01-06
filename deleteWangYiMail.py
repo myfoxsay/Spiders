@@ -5,7 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 #网易邮件登录
-driver=webdriver.Chrome()
+#Google Chrome	87.0.4280.88 (正式版本) (x86_64) mac
+driver=webdriver.Chrome('./chromedriver')
 driver.get("https://mail.163.com/")
 driver.find_element_by_id('lbNormal').click()
 driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
