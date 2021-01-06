@@ -3,9 +3,6 @@ import time
 import xlrd
 import re
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 
 
 # Google Chrome	87.0.4280.88 (正式版本) (x86_64) mac
