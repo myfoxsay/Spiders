@@ -28,7 +28,6 @@ root.geometry('500x300')
 # Google Chrome	87.0.4280.88 (正式版本) (x86_64) mac
 def query():
     driver = browser
-    driver.get("http://192.168.3.70:8131/#/kafka/lag")
     workbook = xlrd.open_workbook(r'./queue.xls')
     # 根据sheet索引或者名称获取sheet内容
     sheet = workbook.sheet_by_index(0)  # sheet索引从0开始
