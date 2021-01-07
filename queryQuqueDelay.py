@@ -120,3 +120,6 @@ tk.mainloop()
 #就会生成build文件夹和dist文件夹
 # 打包好后将 queue.xls拷贝到Resources下 本机地址举例：/Users/用户名/PycharmProjects/Spiders/dist/queryQuqueDelay.app/Contents/Resources/
 #启动目录：右键-显示包内容-Contents-MacOS-queryQuqueDelay  本机地址举例:/Users/用户名/PycharmProjects/Spiders/dist/queryQuqueDelay.app/Contents/MacOS/queryQuqueDelay
+
+#压缩发布：
+#zip -q -r queryQuqueDelay.app.zip queryQuqueDelay.app/
